@@ -19,3 +19,8 @@ services:
             # zt1
             - zt1:/var/lib/zerotier-one/
         restart: unless-stopped
+volumes:
+    ztncui:
+        external: false
+    zt1:
+        external: false
