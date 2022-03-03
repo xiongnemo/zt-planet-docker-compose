@@ -13,7 +13,7 @@ services:
             - '3443:3443'
             # http port: 8000
             - '8000:8000'
-        volume:
+        volumes:
             # ztncui
             - ztncui:/opt/key-networks/ztncui/etc/
             # zt1
